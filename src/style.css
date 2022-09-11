@@ -1,0 +1,32 @@
+h1,
+h2 {
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(33, 33, 161);
+}
+
+.city {
+    color: rgb(25, 202, 25);
+}
+
+.sun-icon {
+    color: yellow;
+    font-size: 50px;
+    display: block;
+    padding: 20px 230px;
+}
+
+.sun-icon:hover {
+    color: red;
+}
+
+.temperature {
+    display: block;
+    color: red;
+    font-size: 40px;
+    font-weight: 400;
+}
