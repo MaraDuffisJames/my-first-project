@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="src/styles/css" />
+    <link rel="stylesheet" href="src/style.css" />
 </head>
 
 <body>
@@ -37,10 +37,12 @@
         </div>
         <i class="fa-regular fa-sun sun-icon"></i>
         <h1 class="city" id="main-city">ALICANTE</h1>
-        <button type="button" class="btn btn-success" id="current-location">
-            Curren location
-        </button>
-        <span class="temperature" id="temperature">+34°C</span>
+        <div>
+            <button type="button" class="btn btn-success" id="current-location">
+                Curren location
+            </button>
+        </div>
+        <div class="temperature" id="temperature">+34°C</div>
         <form id="city-name">
             <input type="text" class="form-control" id="input-city-name" placeholder="Choose city" />
             <br />

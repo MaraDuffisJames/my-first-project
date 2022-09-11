@@ -5,6 +5,10 @@ h2 {
     text-align: center;
 }
 
+h1 {
+    color: red;
+}
+
 h2 {
     color: rgb(161, 116, 33);
 }
@@ -25,8 +29,13 @@ h2 {
 }
 
 .temperature {
-    display: block;
+    text-align: center;
     color: red;
     font-size: 40px;
     font-weight: 400;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
 }
