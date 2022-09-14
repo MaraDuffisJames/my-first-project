@@ -13,6 +13,10 @@ h2 {
     color: rgb(161, 116, 33);
 }
 
+p {
+    text-align: center;
+}
+
 .city {
     color: rgb(25, 202, 25);
 }
